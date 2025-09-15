@@ -12,8 +12,8 @@
   (run from project root)
 */
 
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
 /**
  * @param {fs.PathOrFileDescriptor} filePath
