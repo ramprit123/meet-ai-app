@@ -8,7 +8,6 @@ type User = {
   email: string;
   name?: string;
   role?: string;
-  // Add other fields as needed
 };
 
 type SessionState = { user?: User; loading: boolean };
